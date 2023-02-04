@@ -7,20 +7,81 @@ body{
 }
 
 .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.top-header{
     height: auto;
     padding: 8px;
     font-size: 24px #F9FAF8;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 240px;
+}
+
+.bottom-header{
+    height: auto;
+    padding-bottom: 20px;
+
+    font-size: 24px #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.main-text{
+    display: flex;
+    font-size: 48px;
+    color: #F9FAF9;
+    font-weight: bolder;
+}
+
+.secondary-text{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-lg{
+    color: #1F2937 !important;
+    background-color: #E5E7EB !important;
+}
+
+.my-picture{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    border-style: ridge;
+    border-color: #F9FAF8;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+.header-button{
+    background-color: #3882F6;
 }
 
 .logo{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 8px;
+}
+
+.logo-image{
+    display: flex;
+    width: 100px;
+    padding: 10px;
 }
 
 .links{
@@ -31,12 +92,7 @@ body{
     gap: 25px; 
 }
 
-.logo-image{
-    display: flex;
-    width: 100px;
-    padding: 25px;
-    justify-content: center;
-}
+
 
 .fa-brands, .fa-sharp{
     font-size: 3em;
