@@ -78,6 +78,24 @@ body{
     border-radius: 50%;
 }
 
+.recipes{
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    border-style: ridge;
+    border-color: #F9FAF8;
+    border-width: 5px; 
+}
+
+.sudoku,.exercise{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-style: ridge;
+    border-color: #F9FAF8;
+    border-width: 5px;
+}
+
 .header-button{
     background-color: #3882F6;
 }
@@ -105,6 +123,15 @@ body{
 .projects{
     display: flex;
     flex: 1 1 auto;
+    justify-content: center;
+
+}
+
+.box-1,.box-2,.box-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 .quote{
